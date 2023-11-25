@@ -1,0 +1,25 @@
+.header {
+  height: 100vh;
+  width: 100vw;
+  background: url("./img/12.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    color: $text-color;
+    text-align: center;
+
+    h1 {
+      font-size: 7vmin;
+      margin-bottom: 15px;
+      margin-top: 25px;
+    }
+
+    h2 {
+      font-size: 4vmin;
+    }
+  }
+}
